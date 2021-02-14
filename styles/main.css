@@ -36,6 +36,14 @@ body{
     margin-right: 1rem;
 }
 
+.text-link{
+    color: white;
+}
+
+.text-link:hover{
+    color: white;
+}
+
 .btn-outline-success{
     float: right;
     border-color:#FF5757;
