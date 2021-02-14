@@ -36,7 +36,7 @@ body{
     margin-right: 1rem;
 }
 
-.btn-secondary{
+.btn-outline-success{
     float: right;
     border-color:#FF5757;
     background-color: #161A21!important;
@@ -45,7 +45,7 @@ body{
     font-size: 20px;
 }
 
-.btn-secondary:hover{
+.btn-outline-success:hover{
     background-color: #FF5757!important;;
     border-color:#FF5757;
 }
