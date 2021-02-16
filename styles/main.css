@@ -99,6 +99,79 @@ body{
     padding-right: 3rem;
 }
 
+/* Contact CSS */
+.contact-form {
+    width: 100%;
+}
+
+.form-label {
+    font-size: 1rem;
+    margin: 0;
+    font-weight: 600;
+    font-size: 1.2rem;
+    color: #fff;
+}
+
+.form-input {
+    font-size: 1rem;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    padding: 10px 10px;
+    width: 100%;
+    background: rgba(255,255,255,0.2);
+    color: #fff;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.form-input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: rgba(255, 255, 255, 0.5);
+    opacity: 1; /* Firefox */
+  }
+  
+  .form-input:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: white;
+  }
+  
+  .form-input::-ms-input-placeholder { /* Microsoft Edge */
+    color: white;
+  }
+
+#form-textarea {
+    margin-top: 10px;
+    margin-bottom: 40px;
+    width: 100%;
+    background: rgba(255,255,255,0.2);
+    color: #fff;
+    padding: 10px 10px;
+}
+
+.submit-btn {
+    padding: 8px 24px;
+    font-size: 1.1rem;
+    background: rgba(0, 0, 0, 0.329);
+    color: #fff;
+    border: 1px solid rgba(255, 255, 255, 0.507);
+}
+
+.submit-btn:hover {
+    border: 1px solid white;
+}
+
+.form-input:hover, #form-textarea:hover {
+    border: 1px solid #64ffda;
+}
+
+
+.top-social{
+    color: white;
+    padding-right: 1rem;
+
+}
+
+.top-social:hover{
+    color: #64ffda;
+}
+
 /* Mobile Stuff */
 @media only screen and (min-width: 768px) and (max-width: 1280px) {
     .row {
