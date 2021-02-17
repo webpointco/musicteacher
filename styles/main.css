@@ -41,21 +41,26 @@ body{
 }
 
 .text-link:hover{
-    color: white;
+    color: rgb(126, 163, 255);
+    transition: 0.2s;
 }
 
 .btn-outline-success{
-    float: right;
+    position: absolute;
+    right: 0;
     border-color:#FF5757;
-    background-color: #161A21!important;
+    background-color: #FF5757;
     color: white;
     margin-right: 5rem;
     font-size: 20px;
 }
 
 .btn-outline-success:hover{
-    background-color: #FF5757!important;;
-    border-color:#FF5757;
+    box-shadow: 0px 0px 40px 30px #ff575713;
+    background-color: #ff7e7e;
+    border: 1px solid #ff7e7e;
+    color: white;
+    transition: 0.3s;
 }
 
 .jumbotron{
@@ -92,16 +97,58 @@ body{
 }
 
 .col2{
-    padding-left: 3rem;
+    /* padding-left: 15rem; */
+    /* background-color: #f00; */
+}
+
+.about-row {
+    
+}
+
+.about-img {
+
 }
 
 .col1{
     padding-right: 3rem;
+    /* background-color: #0f0; */
+}
+
+.what-do-i-do-text {
+    color: #fff;
+    font-size: 1.3rem;
+    margin-bottom: 60px;
+}
+
+.video-row {
+    margin-bottom: 90px;
+}
+
+.embed-responsive-item {
+    width: 100%;
+    height: 440px;
 }
 
 /* Contact CSS */
-.contact-form {
+#contact {
+    background-color: #21262e;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.contact-header {
+    font-family: 'Proza Libre', sans-serif;
     width: 100%;
+    font-weight: 800;
+    font-size: 5rem;
+    color:#2d333d;
+    padding-bottom: 1rem;
+}
+
+.contact-form {
+    /* width: 80%;
+    margin-left: 50%;
+    transform: translateX(-50%); */
 }
 
 .form-label {
@@ -118,7 +165,7 @@ body{
     margin-bottom: 30px;
     padding: 10px 10px;
     width: 100%;
-    background: rgba(255,255,255,0.2);
+    background: rgba(255,255,255,0.1);
     color: #fff;
     border: 1px solid rgba(255, 255, 255, 0.1);
 }
@@ -140,7 +187,7 @@ body{
     margin-top: 10px;
     margin-bottom: 40px;
     width: 100%;
-    background: rgba(255,255,255,0.2);
+    background: rgba(255,255,255,0.1);
     color: #fff;
     padding: 10px 10px;
 }
@@ -148,17 +195,22 @@ body{
 .submit-btn {
     padding: 8px 24px;
     font-size: 1.1rem;
-    background: rgba(0, 0, 0, 0.329);
+    background-color: #FF5757;
     color: #fff;
-    border: 1px solid rgba(255, 255, 255, 0.507);
+    border: 1px solid #FF5757;
+    border-radius: 6px;
 }
 
 .submit-btn:hover {
-    border: 1px solid white;
+    box-shadow: 0px 0px 40px 30px #ff575713;
+    background-color: #ff7e7e;
+    border: 1px solid #ff7e7e;
+    color: white;
+    transition: 0.3s;
 }
 
 .form-input:hover, #form-textarea:hover {
-    border: 1px solid #64ffda;
+    border: 1px solid #fff;
 }
 
 
@@ -169,7 +221,7 @@ body{
 }
 
 .top-social:hover{
-    color: #64ffda;
+    color: #FF5757;
 }
 
 /* Mobile Stuff */
@@ -188,6 +240,21 @@ body{
         padding-right: 0;
     }
 
+    /* .video-col {
+        padding: 80px;
+    } */
+
+    .embed-responsive-item {
+        /* width: 70%;
+        height: 70%; */
+    }
+
+}
+
+@media only screen and (max-width: 980px) {
+    .btn-outline-success {
+        left: 0;
+    }
 }
 
 @media only screen and (max-width : 768px){
@@ -207,5 +274,14 @@ body{
 
     .about-header{
         font-size: 3rem;
+    }
+
+    .contact-header {
+        font-size: 3rem;
+    }
+
+    .embed-responsive-item {
+        width: 80%;
+        height: 100%;
     }
 }

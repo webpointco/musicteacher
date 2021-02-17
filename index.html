@@ -15,7 +15,7 @@
   <script src="https://kit.fontawesome.com/7dc3015a44.js" crossorigin="anonymous"></script><link rel="stylesheet" href="https://kit-free.fontawesome.com/releases/latest/css/free.min.css" media="all"><link rel="stylesheet" href="https://kit-free.fontawesome.com/releases/latest/css/free-v4-font-face.min.css" media="all"><link rel="stylesheet" href="https://kit-free.fontawesome.com/releases/latest/css/free-v4-shims.min.css" media="all">
 </head>
 
-    <body>
+<body>
 
 <!-- Navbar Stuff -->
 <nav class="navbar navbar-custom navbar-expand-lg navbar-dark">
@@ -47,49 +47,65 @@
 
     <div class="jumbotron" id="about">
       <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-md-6 col-md-pull-6 text-container my-auto col1">
+        <div class="row about-row align-items-center justify-content-center">
+          <div class="col-md-6 col-md-pull-5 text-container my-auto col1">
             <h1 class="about-header">Namaste</h1>
-            <p class="about-text">My name is Padmanabhan S. I am a Carnatic vocal artist, Gana Praveen (7 year course) in music from <a href="http://www.swathithirunal.in/rel_akademi.htm"class="text-link">Sree Swathi Thirunal College of Music</a> at Trivandrum, India.
+            <p class="about-text">My name is Padmanabhan S. I am a Carnatic vocal artist, Gana Praveen (7 year course) in music from <a target="_blank" href="http://www.swathithirunal.in/rel_akademi.htm"class="text-link">Sree Swathi Thirunal College of Music</a> at Trivandrum, India.
             </p>
             <p class="about-text">I am very passionate about music and have decades of experience teaching music for students at all levels. I teach individual and group classes and am flexible on the time.</p>
-            <p class="about-text">I am also the temple Bhagavathar for the iconic <a class="text-link" href="https://spst.in/">Padmanabha Swamy temple in Trivandrum.</a> 
+            <p class="about-text">I am also the temple Bhagavathar for the iconic <a class="text-link" target="_blank" href="https://spst.in/">Padmanabha Swamy temple in Trivandrum.</a> 
             </p>
             <p class="about-text">If anyone is interested in learning music, please contact me.</p>
           </div>
-          <div class="col-md-6 col-md-push-6 my-auto col2">
-            <img src="images/homeimage.png" class="img-fluid" alt="...">
+          <div class="col-md-6 col-md-push-6 my-auto center-block align-items-center justify-content-center col2" align="center">
+            <img src="images/homeimage.png" class="img-fluid image-center" alt="...">
           </div>
         </div>
       </div>
     </div> 
 
-    </body>
-
-
-  <!-- Contact -->
-
-  <div class="jumbotron" id="contact">
-    <div class="container">
-      <div class="row justify-content-center">
-        <div class="col my-auto">
-          <h1 class="about-header">Contact</h1>
-          <form action="https://formsubmit.co/EMAIL PUT LATER" method="POST" class="contact-form">
-            <input type="hidden" name="_captcha" value="false">
-            <p class="form-label">Full Name</p>
-            <input class="form-input" type="text" placeholder="Enter your Full Name" name="Name" required>
-      
-            <p class="form-label">Email Address</p>
-            <input class="form-input" type="text" placeholder="Enter your Email" name="Email" required>
-      
-            <p class="form-label">Message</p>
-            <textarea id="form-textarea" name="Message" placeholder="Feel Free to Leave me a Message Here!" id="" cols="30" rows="6"></textarea>
-            <button type = "submit" class="submit-btn">Submit</button>
-        </form>
+    <div  id="contact">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col my-auto">
+            <h1 class="contact-header">What do I do?</h1>
+            <h2 class="what-do-i-do-text">I am very passionate about music and have decades of experience teaching music for students at all levels. I teach individual and group classes and am flexible on the time.</h2>
+            <div class="video-row row">
+              <div class="video-col col-md-6">
+                <div class="embed-responsive embed-responsive-16by9">
+                  <iframe class="embed-responsive-item" src=" https://www.youtube.com/embed/57FUcCiBJp8"></iframe>
+                </div>
+              </div>
+              <div class="video-col col-md-6">
+                <div class="embed-responsive embed-responsive-16by9">
+                  <iframe class="embed-responsive-item" src=" https://www.youtube.com/embed/YhyuXRAv15Q"></iframe>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
-  </div> 
-    
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col my-auto">
+            <form action="https://formsubmit.co/EMAIL PUT LATER" method="POST" class="contact-form">
+              <h1 class="contact-header">Get In Touch.</h1>
+              <input type="hidden" name="_captcha" value="false">
+              <p class="form-label">Full Name</p>
+              <input class="form-input" type="text" placeholder="Enter your Full Name" name="Name" required>
+        
+              <p class="form-label">Email Address</p>
+              <input class="form-input" type="text" placeholder="Enter your Email" name="Email" required>
+        
+              <p class="form-label">Message</p>
+              <textarea id="form-textarea" name="Message" placeholder="Feel Free to Leave me a Message Here!" id="" cols="30" rows="6"></textarea>
+              <button type = "submit" class="submit-btn">Send Message</button>
+          </form>
+          </div>
+        </div>
+      </div>
+    </div> 
+
+    </body>    
 
 </html>
