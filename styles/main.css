@@ -68,6 +68,10 @@ body{
     padding: 3rem 3rem;
 }
 
+.jumbotron2{
+    background-color: #21262e;!important;
+    padding: 3rem 3rem;
+}
 
 /* ABOUT CSS */
 
@@ -249,15 +253,28 @@ body{
         height: 70%; */
     }
 
+    .vid1{
+        padding-bottom: 2rem;
+    }
+
 }
 
 @media only screen and (max-width: 980px) {
     .btn-outline-success {
         left: 0;
     }
+    .vid1{
+        padding-bottom: 2rem;
+    }
+    .btn-outline-success{
+        display: none;
+    }
 }
 
 @media only screen and (max-width : 768px){
+    .vid1{
+        padding-bottom: 2rem;
+    }
     .row {
         display: flex;
         flex-direction: column-reverse;
@@ -283,5 +300,8 @@ body{
     .embed-responsive-item {
         width: 80%;
         height: 100%;
+    }
+    .btn-outline-success{
+        display: none;
     }
 }
