@@ -58,10 +58,12 @@ body{
 .top-social{
     color: white;
     padding-right: 1rem;
+    
 }
 
 .top-social:hover{
-    color: #FF5757;
+    transition: 0.3s;
+    color:#a1a1a1 !important;
 }
 
 .btn-outline-success:hover{
@@ -73,12 +75,12 @@ body{
 }
 
 .jumbotron{
-    background-color: #161A21!important;
+    background-color: #161A21 !important;
     padding: 3rem 3rem;
 }
 
 .jumbotron2{
-    background-color: #21262e;!important;
+    background-color: #21262e !important;
     padding-top: 3rem;
     padding-left: 3rem;
     padding-right: 3rem;
@@ -165,7 +167,7 @@ body{
     width: 100%;
     font-weight: 800;
     font-size: 5rem;
-    color:#2d333d;
+    color:#464b55;
     padding-bottom: 1rem;
 }
 
